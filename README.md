@@ -1,2 +1,10 @@
 # esx_woz_shortanim
-Made a fast script with some fun animations with shortcuts. I use the numpad for the shortcuts because I don't know any other usage of the numpad in FiveM, so I made some fun of it.
+
+Steps to install
+
+1. Download the script.
+2. Rename it to "esx_woz_shortanim".
+3. Place the folder "esx_woz_shortanim" in your resources.
+4. Add a line in server.cfg with "start esx_woz_shortanim".
+
+Please dont reupload my script!
