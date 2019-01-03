@@ -7,4 +7,4 @@ Steps to install
 3. Place the folder "esx_woz_shortanim" in your resources.
 4. Add a line in server.cfg with "start esx_woz_shortanim".
 
-Please dont reupload my script!
+Please don't reupload my script!
