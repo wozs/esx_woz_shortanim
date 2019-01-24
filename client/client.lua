@@ -18,67 +18,28 @@ AddEventHandler('esx:playerLoaded', function(xPlayer)
   ESX.PlayerData = xPlayer
 end)
 
--- Numpad 4 --
+-- Numpad --
 Citizen.CreateThread(function()
 	while true do
 	  Wait(5)
 		if IsControlPressed(0, 108) then
 			Numpad4()
-		end
-	end
-end)
-
--- Numpad 5
-Citizen.CreateThread(function()
-	while true do
-	  Wait(0)
-		if IsControlPressed(0, 60) then
+		elseif IsControlPressed(0, 110) then
 			Numpad5()
-		end
-	end
-end)
-
--- Numpad 6 --
-Citizen.CreateThread(function()
-	while true do
-	  Wait(5)
-		if IsControlPressed(0, 107) then
+		elseif IsControlPressed(0, 107) then
 			Numpad6()
-		end
-	end
-end)
-
--- Numpad 7 --
-Citizen.CreateThread(function()
-	while true do
-	  Wait(0)
-		if IsControlPressed(0, 117) then
+		elseif IsControlPressed(0, 117) then
 			Numpad7()
-		end
-	end
-end)
-
--- Numpad 8 --
-Citizen.CreateThread(function()
-	while true do
-	  Wait(0)
-		if IsControlPressed(0, 61) then
+		elseif IsControlPressed(0, 111) then
 			Numpad8()
-		end
-	end
-end)
-
--- Numpad 9 --
-Citizen.CreateThread(function()
-	while true do
-	  Wait(0)
-		if IsControlPressed(0, 118) then
+		elseif IsControlPressed(0, 118) then
 			Numpad9()
 		end
 	end
 end)
 
--- FUNCTIONS --
+
+-- NUMPAD FUNCTIONS --
 
 -- Function Numpad 4 --
 function Numpad4()
